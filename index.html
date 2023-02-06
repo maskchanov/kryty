@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Goldy store</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+        <!-- <link href="./css/css2" rel="stylesheet"> -->
+        <link rel="stylesheet" href="./css/all.min.css">
+
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/responsive.css">
+    </head>
+    <body>
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="head">
+                    <div class="left">
+                        <div class="location toggle-menu">
+                            <div class="content">
+                                <img src="./img/location.svg" alt="">
+                                <p class="value">Санкт-Петербург</p>
+                            </div>
+                            <div class="toggle-list">
+                                <ul class="toggle-list-block">
+                                    <li class="item active">Санкт-Петербург</li>
+                                    <li class="item">Москва</li>
+                                    <li class="item">Нижний Новгород</li>
+                                    <li class="item">Ростов-на-Дону</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <a href="tel:88887776655" class="phone">
+                                <img src="./img/phone.svg" alt="">
+                                <p>8 888 777-66-55</p>
+                            </a>
+
+                            
+
+                            <!-- Menu on mobile -->
+                            <div class="layout"></div>
+                            <div class="menu-mobile">
+                                <span class="close"><i class="fa-solid fa-xmark"></i></span>
+                                <div class="search-mobile">
+                                    <p>SEARCH</p>
+                                    <input type="text" placeholder="Поиск по сайту">
+                                </div>
+                                <div class="toggle-menu">
+                                    <p class="value">Санкт-Петербург</p>
+                                    <div class="toggle-list">
+                                        <ul class="toggle-list-block">
+                                            <li class="item active">Санкт-Петербург</li>
+                                            <li class="item">Москва</li>
+                                            <li class="item">Нижний Новгород</li>
+                                            <li class="item">Ростов-на-Дону</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <ul class="categories-mobile">
+                                    <li class="category-mobile">
+                                        <a href="#">Акции</a>
+                                    </li>
+                                    <li class="category-mobile">
+                                        <a href="#1">Бренды</a>
+                                    </li>
+                                    <li class="category-mobile">
+                                        <a href="#">Магазины</a>
+                                    </li>
+                                    <li class="category-mobile">
+                                        <a href="#">О нас</a>
+                                    </li>
+                                    <li class="category-mobile">
+                                        <a href="#">Доставка и оплата</a>
+                                    </li>
+                                    <li class="category-mobile">
+                                        <a href="#">Статьи</a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="menu-cta">
+                                    <button class="btn primary">Вход</button>
+                                </a>
+                                <a href="#" class="menu-cta">
+                                    <button class="btn primary">Регистрация</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mid">
+                        <img src="./img/logo.svg" class="logo" alt="">
+                        <p>ювелирный магазин</p>
+                    </div>
+                    <div class="right">
+                        <div class="auth">
+                            <a href="#" class="login">Вход</a>
+                            <span></span>
+                            <a href="#" class="register">Регистрация</a>
+                        </div>
+                        <div class="actions">
+                            <button class="action heart">
+                                <img src="./img/heart.svg" alt="">
+                                <span>23</span>
+                            </button>
+                            <button class="action">
+                                <img src="./img/chart.svg" alt="">
+                            </button>
+                            <button class="action">
+                                <img src="./img/bag.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot">
+                    <div class="categories">
+                        <p class="category disabled"><a href="">Каталог</a></p>
+                        <p class="category">
+                            <a href="#">Акции</a>
+                        </p>
+                        <p class="category">
+                            <a href="#">Бренды</a>
+                        </p>
+                        <p class="category">
+                            <a href="#">Магазины</a>
+                        </p>
+                        <p class="category">
+                            <a href="#">О нас</a>
+                        </p>
+                        <p class="category">
+                            <a href="#">Доставка и оплата</a>
+                        </p>
+                        <p class="category">
+                            <a href="#">Статьи</a>
+                        </p>
+                    </div>
+                    <div class="search">
+                        <div class="icon">
+                            <img src="./img/search.svg" alt="">
+                        </div>
+                        <input type="text" placeholder="Поиск по сайту">
+                    </div>
+                </div>
+            </header>
+
+            <!-- Banner -->
+            <section class="banner">
+                <div class="slider">
+                    <div class="body">
+                        <div class="item">
+                            <div class="info">
+                                <p class="desc">Суперскидка до 60%</p>
+                                <h1 class="heading lv1 title">НА БРИЛЛИАНТЫ</h1>
+                                <button class="btn primary">Подробнее</button>
+                            </div>
+                            <picture>
+                            
+                                <img class="image" src="./img/banner@1x.png" alt="БРИЛЛИАНТЫ">
+                            </picture>
+                        </div>
+                        <div class="item">
+                            <div class="info">
+                                <p class="desc">Суперскидка до 60%</p>
+                                <h1 class="heading lv1 title">НА БРИЛЛИАНТЫ</h1>
+                                <button class="btn primary">Подробнее</button>
+                            </div>
+                            <picture>
+                                <img class="image" src="./img/banner@1x.png" alt="БРИЛЛИАНТЫ">
+                            </picture>
+                        </div>
+                        <div class="item">
+                            <div class="info">
+                                <p class="desc">Суперскидка до 60%</p>
+                                <h1 class="heading lv1 title">НА БРИЛЛИАНТЫ</h1>
+                                <button class="btn primary">Подробнее</button>
+                            </div>
+                            <picture>
+                                <img class="image" src="./img/banner@1x.png" alt="БРИЛЛИАНТЫ">
+                            </picture>
+                        </div>
+                    </div>
+                    <button class="btn circle prev disabled">
+                        <img src="./img/arrow-left.svg" alt="">
+                    </button>
+                    <button class="btn circle next">
+                        <img src="./img/arrow-right.svg" alt="">
+                    </button>
+                    <div class="dots">
+                        <div data-index="0" =""="" class="dot active"></div>
+                        <div data-index="1" class="dot"></div>
+                        <div data-index="2" class="dot"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Popular categories -->
+            <section class="popular container">
+                <h2 class="heading lv2 title">Популярные категории</h2>
+                <div class="row">
+                    <div class="column">
+                        <a href="#" class="card">
+                            <div class="image-block">
+                                <picture>
+                                    <source src="./img/popular-1@1x.png 1x, ./img/popular-1@2x.png 2x">
+                                    <img src="./img/popular-1@1x.png" srcset="
+                                            ./img/popular-1@2x.png 2x
+                                        " alt="">
+                                </picture>
+                            </div>
+                            <p class="name">Кольца</p>
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="#" class="card">
+                            <div class="image-block">
+                                <picture>
+                                    <source src="./img/popular-2@1x.png 1x, ./img/popular-2@2x.png 2x">
+                                    <img src="./img/popular-2@1x.png" srcset="
+                                            ./img/popular-2@2x.png 2x
+                                        " alt="">
+                                </picture>
+                            </div>
+                            <p class="name">Серьги</p>
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="#" class="card">
+                            <div class="image-block">
+                                <picture>
+                                    <source src="./img/popular-3@1x.png 1x, ./img/popular-3@2x.png 2x">
+                                    <img src="./img/popular-3@1x.png" srcset="
+                                            ./img/popular-3@2x.png 2x
+                                        " alt="">
+                                </picture>
+                            </div>
+                            <p class="name">Помолвочные кольца</p>
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="#" class="card">
+                            <div class="image-block">
+                                <picture>
+                                    <source src="./img/popular-4@1x.png 1x, ./img/popular-4@2x.png 2x">
+                                    <img src="./img/popular-4@1x.png" srcset="
+                                            ./img/popular-4@2x.png 2x
+                                        " alt="">
+                                </picture>
+                            </div>
+                            <p class="name">Браслеты</p>
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="#" class="card">
+                            <div class="image-block">
+                                <picture>
+                                    <source src="./img/popular-5@1x.png 1x, ./img/popular-5@2x.png 2x">
+                                    <img src="./img/popular-5@1x.png" srcset="
+                                            ./img/popular-5@2x.png 2x
+                                        " alt="">
+                                </picture>
+                            </div>
+                            <p class="name">Колье и подвески</p>
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="#" class="card">
+                            <div class="image-block">
+                                <picture>
+                                    <source src="./img/popular-6@1x.png 1x, ./img/popular-6@2x.png 2x">
+                                    <img src="./img/popular-6@1x.png" srcset="
+                                            ./img/popular-6@2x.png 2x
+                                        " alt="">
+                                </picture>
+                            </div>
+                            <p class="name">Часы</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sale -->
+            <section class="sale container">
+                <h2 class="heading lv2 title">Распродажа</h2>
+                <div class="head">
+                    <div class="types">
+                        <button class="btn rounded type active">Кольца</button>
+                        <button class="btn rounded type">Серьги</button>
+                        <button class="btn rounded type">Браслеты</button>
+                        <button class="btn rounded type">Часы</button>
+                    </div>
+                    <div class="btns">
+                        <button class="btn circle prev disabled">
+                            <img src="./img/arrow-left.svg" alt="">
+                        </button>
+                        <button class="btn circle next">
+                            <img src="./img/arrow-right.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="row first">
+                    <div class="column">
+                        <div class="card">
+                            <div class="tag">Sale</div>
+                            <div class="actions">
+                                <div class="action icon-heart">
+                                    <span class="icon heart"></span>
+                                </div>
+                                <div class="action">
+                                    <span class="icon watch"></span>
+                                </div>
+                            </div>
+                            <div class="thumb">
+                                <picture>
+                                    <source srcset="
+                                            ./img/sale-1@1x.png 1x,
+                                            ./img/sale-1@2x.png 2x
+                                        ">
+                                    <img src="./img/sale-1@1x.png" srcset="./img/sale-1@2x.png 2x">
+                                </picture>
+                                <div class="dots">
+                                    <div class="dot active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="body">
+                                <div class="price-block">
+                                    <div class="price">
+                                        <span class="price-current">41&nbsp;000&nbsp;₽</span>
+                                        <span class="price-old">65&nbsp;000&nbsp;₽</span>
+                                    </div>
+                                    <div class="percent">-45%</div>
+                                </div>
+                                <p class="desc line-clamp">
+                                    Стильное кольцо из&nbsp;белого золота c&nbsp;бриллиантами
+                                </p>
+                            </div>
+                            <div class="foot">
+                                <div class="choose toggle-menu">
+                                    <p class="value">Белое золото</p>
+                                    <div class="toggle-list">
+                                        <ul class="toggle-list-block">
+                                            <li class="item active">Белое золото</li>
+                                            <li class="item">Желтое золото</li>
+                                            <li class="item">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="choose toggle-menu">
+                                    <p>Размер: <span class="value">16</span></p>
+                                    <div class="toggle-list">
+                                        <ul class="toggle-list-block">
+                                            <li class="item">15</li>
+                                            <li class="item active">16</li>
+                                            <li class="item">17</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="actions">
+                                <div class="action icon-heart">
+                                    <span class="icon heart"></span>
+                                </div>
+                                <div class="action">
+                                    <span class="icon watch"></span>
+                                </div>
+                            </div>
+                            <div class="thumb">
+                                <picture>
+                                    <source srcset="
+                                            ./img/sale-2@1x.png 1x,
+                                            ./img/sale-2@2x.png 2x
+                                        ">
+                                    <img src="./img/sale-2@1x.png" srcset="./img/sale-2@2x.png 2x">
+                                </picture>
+                                <div class="dots">
+                                    <div class="dot active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="body">
+                                <div class="price-block">
+                                    <div class="price">
+                                        <span class="price-current">56&nbsp;000&nbsp;₽</span>
+                                    </div>
+                                </div>
+                                <p class="desc line-clamp">
+                                    Стильное кольцо из&nbsp;белого золота c&nbsp;бриллиантами
+                                </p>
+                            </div>
+                            <div class="foot">
+                                <div class="choose toggle-menu">
+                                    <p class="value">Белое золото</p>
+                                    <div class="toggle-list">
+                                        <ul class="toggle-list-block">
+                                            <li class="item active">Белое золото</li>
+                                            <li class="item">Желтое золото</li>
+                                            <li class="item">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="choose toggle-menu">
+                                    <p>Размер: <span class="value">16</span></p>
+                                    <div class="toggle-list">
+                                        <ul class="toggle-list-block">
+                                            <li class="item">15</li>
+                                            <li class="item active">16</li>
+                                            <li class="item">17</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="actions">
+                                <div class="action icon-heart">
+                                    <span class="icon heart"></span>
+                                </div>
+                                <div class="action">
+                                    <span class="icon watch"></span>
+                                </div>
+                            </div>
+                            <div class="thumb">
+                                <picture>
+                                    <source srcset="
+                                            ./img/sale-3@1x.png 1x,
+                                            ./img/sale-3@2x.png 2x
+                                        ">
+                                    <img src="./ims/sale-3@1x.png" srcset="./img/sale-3@2x.png 2x">
+                                </picture>
+                                <div class="dots">
+                                    <div class="dot active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="body">
+                                <div class="price-block">
+                                    <div class="price">
+                                        <span class="price-current">37&nbsp;500&nbsp;₽</span>
+                                    </div>
+                                </div>
+                                <p class="desc line-clamp">
+                                    Стильное кольцо из&nbsp;белого золота c&nbsp;бриллиантами
+                                </p>
+                            </div>
+                            <div class="foot">
+                                <div class="choose toggle-menu">
+                                    <p class="value">Белое золото</p>
+                                    <div class="toggle-list">
+                                        <ul class="toggle-list-block">
+                                            <li class="item active">Белое золото</li>
+                                            <li class="item">Желтое золото</li>
+                                            <li class="item">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="choose toggle-menu">
+                                    <p>Размер: <span class="value">16</span></p>
+                                    <div class="toggle-list">
+                                        <ul class="toggle-list-block">
+                                            <li class="item">15</li>
+                                            <li class="item active">16</li>
+                                            <li class="item">17</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="actions">
+                                <div class="action icon-heart">
+                                    <span class="icon heart"></span>
+                                </div>
+                                <div class="action">
+                                    <span class="icon watch"></span>
+                                </div>
+                            </div>
+                            <div class="thumb">
+                                <picture>
+                                    <source srcset="
+                                            ./img/sale-4@1x.png 1x,
+                                            ./img/sale-4@2x.png 2x
+                                        ">
+                                    <img src="./img/sale-4@1x.png" srcset="./img/sale-4@2x.png 2x">
+                                </picture>
+                                <div class="dots">
+                                    <div class="dot active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="body">
+                                <div class="price-block">
+                                    <div class="price">
+                                        <span class="price-current">39&nbsp;200&nbsp;₽</span>
+                                    </div>
+                                </div>
+                                <p class="desc line-clamp">
+                                    Стильное кольцо из&nbsp;белого золота c&nbsp;бриллиантами
+                                </p>
+                            </div>
+                            <div class="foot">
+                                <div class="choose toggle-menu">
+                                    <p class="value">Белое золото</p>
+                                    <div class="toggle-list">
+                                        <ul class="toggle-list-block">
+                                            <li class="item active">Белое золото</li>
+                                            <li class="item">Желтое золото</li>
+                                            <li class="item">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="choose toggle-menu">
+                                    <p>Размер: <span class="value">16</span></p>
+                                    <div class="toggle-list">
+                                        <ul class="toggle-list-block">
+                                            <li class="item">15</li>
+                                            <li class="item active">16</li>
+                                            <li class="item">17</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row second">
+                    <div class="column">
+                        <div class="adv first">
+                            <p class="desc">Скидки на&nbsp;все украшения с&nbsp;бриллиантами</p>
+                            <div class="percent">
+                                <span>До</span>
+                                <span class="number">-50%</span>
+                            </div>
+                            <picture>
+                                <source srcset="
+                                        ./img/sale-5@1x.png 1x,
+                                        ./img/sale-5@2x.png 2x
+                                    ">
+                                <img class="image" src="./img/sale-5@1x.png" srcset="./img/sale-5@2x.png 2x" alt="">
+                            </picture>
+                            <source>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="adv second">
+                            <p class="desc">Скидки на&nbsp;кольца и браслеты</p>
+                            <div class="percent">
+                                <span>До</span>
+                                <span class="number">-40%</span>
+                            </div>
+                            <picture>
+                                <source srcset="
+                                        ./img/sale-6@1x.png 1x,
+                                        ./img/sale-6@2x.png 2x
+                                    ">
+                                <img class="image" src="./img/sale-6@1x.png" srcset="./img/sale-6@2x.png 2x" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="adv third">
+                            <p class="desc">снижение цен на обручальные кольца</p>
+                            <div class="percent">
+                                <span>До</span>
+                                <span class="number">-60%</span>
+                            </div>
+                            <picture>
+                                <source srcset="
+                                        ./assets/images/sale/sale-7@1x.png 1x,
+                                        ./assets/images/sale/sale-7@2x.png 2x
+                                    ">
+                                <img class="image" src="./img/sale-7@1x.png" srcset="./img/sale-7@2x.png 2x" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Product of the day -->
+            <section class="product container">
+                <div class="head">
+                    <h2 class="heading lv2">Товар дня</h2>
+                    <div class="btns">
+                        <button class="btn circle prev">
+                            <img src="./img/arrow-left.svg" alt="">
+                        </button>
+                        <button class="btn circle next">
+                            <img src="./img/arrow-right.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="body">
+                    <div class="left">
+                        <div class="tags">
+                            <div class="tag">New</div>
+                            <div class="tag">Хит</div>
+                            <div class="tag">Sale</div>
+                        </div>
+                        <picture>
+                         
+                            <img src="./img/product@1x.png" alt=""></picture>
+                        <img src="./img/arrow-small.svg" class="arrow-next" alt="">
+
+                        <img src="./img/arrow-small.svg" class="arrow-prev disabled" alt="">
+                    </div>
+                    <div class="right">
+                        <div class="stats">
+                            <div class="star">
+                                <img src="./img/star-fill.svg" alt="">
+                            </div>
+                            <div class="star">
+                                <img src="./img/star-fill.svg" alt="">
+                            </div>
+                            <div class="star">
+                                <img src="./img/star-fill.svg" alt="">
+                            </div>
+                            <div class="star">
+                                <img src="./img/star-fill.svg" alt="">
+                            </div>
+                            <div class="star">
+                                <img src="./img/star.svg" alt="">
+                            </div>
+                            <span>4.2</span>
+                        </div>
+                        <h3 class="title heading lv3">Кольцо из золота с бриллиантами</h3>
+                        <p class="code">Артикул: 1012076</p>
+                        <div class="info">
+                            <div class="price">
+                                <span class="price-current">12&nbsp;100&nbsp;₽</span>
+                                <span class="price-old">22&nbsp;000&nbsp;₽</span>
+                                <span class="percent">-45%</span>
+                            </div>
+                            <div class="countdown">
+                                <div class="time">
+                                    <span class="number hour">12</span>
+                                    <span class="desc">часов</span>
+                                </div>
+                                <span>:</span>
+                                <div class="time">
+                                    <span class="number minute">39</span>
+                                    <span class="desc">минут</span>
+                                </div>
+                                <span>:</span>
+                                <div class="time">
+                                    <span class="number second">20</span>
+                                    <span class="desc">секунд</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="device"></div>
+                        <div class="color">
+                            <p class="subtitle">цвет</p>
+                            <div class="choices">
+                                <div class="item">
+                                    <div class="choice gray"></div>
+                                </div>
+                                <div class="item active">
+                                    <div class="choice yellow"></div>
+                                </div>
+                                <div class="item">
+                                    <div class="choice orange"></div>
+                                </div>
+                                <div class="item">
+                                    <div class="choice green"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="size">
+                            <div class="subtitle">
+                                <p>РАЗМЕР</p>
+                                <div class="info">
+                                    <div>
+                                        Также&nbsp;как&nbsp;существующая теория напрямую зависит
+                                        от&nbsp;экономической целесообразности принимаемых
+                                        решений.
+                                    </div>
+                                    <img src="./img/question.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="size-list">
+                                <div class="size-item active">16.5</div>
+                                <div class="size-item">17.5</div>
+                                <div class="size-item">18.5</div>
+                                <div class="size-item">19</div>
+                                <div class="size-item">19.5</div>
+                                <div class="size-item">18.5</div>
+                                <div class="size-item">19</div>
+                                <div class="size-item">19.5</div>
+                                <div class="size-item disabled">20</div>
+                                <div class="size-item disabled">20.5</div>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <div class="buy">
+                                <button class="btn primary add-cart">в корзину</button>
+                                <button class="btn primary buy-cta">
+                                    купить в 1 клик
+                                </button>
+                            </div>
+                            <div class="action-list">
+                                <div class="action-item icon-heart">
+                                    <span class="icon heart"></span>
+                                    <span class="label">Сохранить</span>
+                                </div>
+                                <div class="action-item">
+                                    <span class="icon chart"></span>
+                                    <span class="label">Сравнить</span>
+                                </div>
+                                <div class="action-item">
+                                    <span class="icon share"></span>
+                                    <span class="label">Поделиться</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Articles -->
+            <section class="articles container">
+                <div class="head">
+                    <h2 class="heading lv2">Статьи</h2>
+                    <a href="#" class="articles-cta">
+                        Читать все
+                        <img src="./img/arrow-right.svg" alt="">
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <a  href="#">
+                                <picture>
+                                    <source srcset="
+                                            ./img/articles-1@1x.png 1x,
+                                            ./img/articles-1@2x.png 2x
+                                        ">
+                                    <img src="./img/articles-1@1x.png" srcset="
+                                            ./img/articles-1@2x.png 2x
+                                        " alt="">
+                                </picture>
+                            </a>
+                            <p class="date">21 сентября 2021</p>
+                            <h4 class="title">
+                                <a href="#">Обручальные кольца: тренды 2021</a>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <a href="#">
+                                <picture>
+                                    <source srcset="
+                                            ./img/articles-2@1x.png 1x,
+                                            ./img/articles-2@2x.png 2x
+                                        ">
+                                    <img src="./img/articles-2@1x.png" srcset="
+                                            ./img/articles-2@2x.png 2x
+                                        " alt="">
+                                </picture>
+                            </a>
+                            <p class="date">25 сентября 2021</p>
+                            <h4 class="title">
+                                <a href="#">Главные ювелирные тренды года</a>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <a href="#">
+                                <picture>
+                                    <source srcset="
+                                            ./img/articles-3@1x.png 1x,
+                                            ./img/articles-3@2x.png 2x
+                                        ">
+                                    <img src="./img/articles-3@1x.png" srcset="
+                                            ./img/articles-3@2x.png 2x
+                                        " alt="">
+                                </picture>
+                            </a>
+                            <p class="date">21 сентября 2021</p>
+                            <h4 class="title">
+                                <a  href="#">Жемчуг: 7 малоизвестных фактов о&nbsp;культовом украшении
+                                </a>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <a href="#">
+                                <picture>
+                                    <source srcset="
+                                            ./img/articles-4@1x.png 1x,
+                                            ./img/articles-4@2x.png 2x
+                                        ">
+                                    <img src="./img/articles-4@1x.png" srcset="
+                                            ./img/articles-4@2x.png 2x
+                                        " alt="">
+                                </picture>
+                            </a>
+                            <p class="date">21 сентября 2021</p>
+                            <h4 class="title">
+                                <a  href="#">Как&nbsp;отличить золото от&nbsp;подделки: 10&nbsp;практических
+                                    советов
+                                </a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="./js/script.js"></script>
+    
+
+</body></html>
